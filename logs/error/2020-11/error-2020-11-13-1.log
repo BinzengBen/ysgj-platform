@@ -1,0 +1,72 @@
+[21:55:51:399] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:56:09:779] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:57:44:226] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:58:30:413] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ysgj.food.platform.dao.DccpPageMapper">
+  <resultMap id="BaseResultMap" type="com.ysgj.food.platform.entity.DccpPage">
+    <id column="page_id" jdbcType="VARCHAR" property="pageId" />
+    <result column="page_name" jdbcType="VARCHAR" property="pageName" />
+    <result column="short_url" jdbcType="VARCHAR" property="shortUrl" />
+    <result column="publish_url" jdbcType="VARCHAR" property="publishUrl" />
+    <result column="edit_version_id" jdbcType="VARCHAR" property="editVersionId" />
+    <result column="publish_version_id" jdbcType="VARCHAR" property="publishVersionId" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="create_user" jdbcType="VARCHAR" property="createUser" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="last_update_user" jdbcType="VARCHAR" property="lastUpdateUser" />
+    <result column="last_update_time" jdbcType="TIMESTAMP" property="lastUpdateTime" />
+    <result column="video_prod_id" jdbcType="VARCHAR" property="videoProdId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    page_id, page_name, short_url, publish_url, edit_version_id, publish_version_id, 
+    state, create_user, create_time, last_update_user, last_update_time, video_prod_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from dccp_page
+    where page_id = #{pageId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from dccp_page
+    where page_id = #{pageId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.ysgj.food.platform.entity.DccpPage">
+    insert into dccp_page (page_id, page_name, short_url, 
+      publish_url, edit_version_id, publish_version_id, 
+      state, create_user, create_time, 
+      last_update_user, last_update_time, video_prod_id
+      )
+    values (#{pageId,jdbcType=VARCHAR}, #{pageName,jdbcType=VARCHAR}, #{shortUrl,jdbcType=VARCHAR}, 
+      #{publishUrl,jdbcType=VARCHAR}, #{editVersionId,jdbcType=VARCHAR}, #{publishVersionId,jdbcType=VARCHAR}, 
+      #{state,jdbcType=INTEGER}, #{createUser,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{lastUpdateUser,jdbcType=VARCHAR}, #{lastUpdateTime,jdbcType=TIMESTAMP}, #{videoProdId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ysgj.food.platform.entity.DccpPage">
+    insert into dccp_page
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="pageId != null">
+        page_id,
+      </if>
+      <if test="pageName != null">
+        page_name,
+      </if>
+      <if test="shortUrl != null">
+        short_url,
+      </if>
+      <if test="publishUrl != null">
+        publish_url,
+      </if>
+      <if test="editVersionId != null">
+        edit_version_id,
+      </if>
+      <if test="publishVersionId != null">
+        publish_version_id,
+      </if>
+      <if test="state != null">
+        state,
+      </if>
+      <if test="createUser != null">
+        create_user,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="lastUpdateUser != null">
+        last_update_user,
+      </if>
+      <if test="lastUpdateTime != null">
+        last_update_time,
+      </if>
+      <if test="videoProdId != null">
+        video_prod_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="pageId != null">
+        #{pageId,jdbcType=VARCHAR},
+      </if>
+      <if test="pageName != null">
+        #{pageName,jdbcType=VARCHAR},
+      </if>
+      <if test="shortUrl != null">
+        #{shortUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="publishUrl != null">
+        #{publishUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="editVersionId != null">
+        #{editVersionId,jdbcType=VARCHAR},
+      </if>
+      <if test="publishVersionId != null">
+        #{publishVersionId,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="createUser != null">
+        #{createUser,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastUpdateUser != null">
+        #{lastUpdateUser,jdbcType=VARCHAR},
+      </if>
+      <if test="lastUpdateTime != null">
+        #{lastUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="videoProdId != null">
+        #{videoProdId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ysgj.food.platform.entity.DccpPage">
+    update dccp_page
+    <set>
+      <if test="pageName != null">
+        page_name = #{pageName,jdbcType=VARCHAR},
+      </if>
+      <if test="shortUrl != null">
+        short_url = #{shortUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="publishUrl != null">
+        publish_url = #{publishUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="editVersionId != null">
+        edit_version_id = #{editVersionId,jdbcType=VARCHAR},
+      </if>
+      <if test="publishVersionId != null">
+        publish_version_id = #{publishVersionId,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        state = #{state,jdbcType=INTEGER},
+      </if>
+      <if test="createUser != null">
+        create_user = #{createUser,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastUpdateUser != null">
+        last_update_user = #{lastUpdateUser,jdbcType=VARCHAR},
+      </if>
+      <if test="lastUpdateTime != null">
+        last_update_time = #{lastUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="videoProdId != null">
+        video_prod_id = #{videoProdId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where page_id = #{pageId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ysgj.food.platform.entity.DccpPage">
+    update dccp_page
+    set page_name = #{pageName,jdbcType=VARCHAR},
+      short_url = #{shortUrl,jdbcType=VARCHAR},
+      publish_url = #{publishUrl,jdbcType=VARCHAR},
+      edit_version_id = #{editVersionId,jdbcType=VARCHAR},
+      publish_version_id = #{publishVersionId,jdbcType=VARCHAR},
+      state = #{state,jdbcType=INTEGER},
+      create_user = #{createUser,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      last_update_user = #{lastUpdateUser,jdbcType=VARCHAR},
+      last_update_time = #{lastUpdateTime,jdbcType=TIMESTAMP},
+      video_prod_id = #{videoProdId,jdbcType=VARCHAR}
+    where page_id = #{pageId,jdbcType=VARCHAR}
+  </update>
+  
+    <select id="selectAll"  resultMap="BaseResultMap">
+    select  *  from dccp_page
+
+  </select>
+  
+  
+</mapper>

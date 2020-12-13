@@ -1,0 +1,2 @@
+[00:11:14:266] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[00:11:14:401] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)

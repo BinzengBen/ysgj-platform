@@ -1,0 +1,128 @@
+[10:40:42:468] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[10:40:42:736] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[10:48:30:466] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[10:48:30:548] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[10:53:59:029] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[10:53:59:094] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:49:03:289] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:49:03:354] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:49:12:910] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:49:12:977] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:49:35:133] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:49:35:185] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:56:30:607] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:56:30:661] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:57:56:028] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:57:56:097] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:59:31:989] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[11:59:32:019] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:00:25:906] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[12:00:27:259] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:16:03:569] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[12:16:04:205] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:16:57:847] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[12:16:58:374] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:21:23:328] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[12:21:23:827] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[12:25:23:311] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[12:25:23:393] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[15:16:00:533] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[15:16:00:613] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[15:19:59:714] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[15:19:59:770] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:15:43:151] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:15:43:229] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:16:19:443] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:16:19:495] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:17:31:872] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:17:31:929] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:18:47:304] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:18:47:352] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:19:06:491] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:19:06:552] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:40:27:928] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:40:27:982] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:43:55:900] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:43:55:960] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:46:27:561] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:46:27:610] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:46:31:765] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:46:31:810] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:46:39:799] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:46:39:848] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:48:43:299] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:48:43:342] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:50:20:627] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:50:20:662] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:51:18:829] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:51:18:867] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:55:27:497] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:55:27:823] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:56:59:282] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:56:59:375] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:57:09:674] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:57:09:745] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)

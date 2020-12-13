@@ -1,0 +1,1277 @@
+[10:40:34:502] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[10:40:34:609] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[10:40:34:657] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[10:40:34:658] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[10:40:35:488] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[10:40:35:512] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 16ms. Found 0 JPA repository interfaces.
+[10:40:37:232] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[10:40:37:242] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[10:40:37:243] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:40:37:244] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[10:40:37:247] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[10:40:37:248] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[10:40:37:248] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[10:40:37:248] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[10:40:38:382] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[10:40:38:578] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:40:38:578] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 3918 ms
+[10:40:38:751] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[10:40:41:872] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[10:40:41:947] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:40:42:075] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[10:40:42:226] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[10:40:42:468] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[10:40:42:496] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[10:40:42:736] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[10:40:42:952] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[10:40:42:959] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[10:40:43:021] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[10:40:43:035] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[10:40:43:046] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[10:40:43:101] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[10:40:43:103] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[10:40:43:104] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[10:40:43:118] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 9.282 seconds (JVM running for 10.259)
+[10:46:12:363] [INFO ][http-nio-8083-exec-3](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:46:12:363] [INFO ][http-nio-8083-exec-3](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[10:46:12:371] [INFO ][http-nio-8083-exec-3](FrameworkServlet.java:547) - Completed initialization in 7 ms
+[10:48:29:283] [INFO ][Thread-5](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[10:48:29:285] [INFO ][Thread-5](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[10:48:29:293] [INFO ][Thread-5](DruidDataSource.java:1908) - {dataSource-1} closed
+[10:48:29:509] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[10:48:29:509] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[10:48:29:862] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[10:48:29:866] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[10:48:29:975] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[10:48:29:976] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[10:48:29:977] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:48:29:977] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[10:48:29:978] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[10:48:29:978] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[10:48:29:978] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[10:48:29:979] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[10:48:29:979] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[10:48:30:053] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:48:30:054] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 542 ms
+[10:48:30:099] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[10:48:30:354] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-2} inited
+[10:48:30:377] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:48:30:419] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[10:48:30:443] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[10:48:30:445] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[10:48:30:466] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[10:48:30:548] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[10:48:30:615] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[10:48:30:618] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[10:48:30:630] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[10:48:30:636] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[10:48:30:637] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[10:48:30:637] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[10:48:30:643] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 1.2 seconds (JVM running for 477.784)
+[10:48:30:645] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[10:53:58:384] [INFO ][Thread-8](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[10:53:58:385] [INFO ][Thread-8](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[10:53:58:387] [INFO ][Thread-8](DruidDataSource.java:1908) - {dataSource-2} closed
+[10:53:58:475] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[10:53:58:476] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[10:53:58:710] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[10:53:58:714] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[10:53:58:800] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[10:53:58:801] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[10:53:58:801] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:53:58:801] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[10:53:58:802] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[10:53:58:802] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[10:53:58:802] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[10:53:58:802] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[10:53:58:803] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[10:53:58:849] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:53:58:849] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 370 ms
+[10:53:58:886] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[10:53:58:950] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-3} inited
+[10:53:58:976] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:53:59:003] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[10:53:59:020] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[10:53:59:021] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[10:53:59:029] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[10:53:59:094] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[10:53:59:154] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[10:53:59:158] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[10:53:59:170] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[10:53:59:178] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[10:53:59:178] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[10:53:59:179] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[10:53:59:185] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.76 seconds (JVM running for 806.326)
+[10:53:59:186] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[11:49:01:796] [INFO ][Thread-13](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:49:01:797] [INFO ][Thread-13](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:49:01:799] [INFO ][Thread-13](DruidDataSource.java:1908) - {dataSource-3} closed
+[11:49:01:973] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[11:49:01:974] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[11:49:02:609] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[11:49:02:613] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[11:49:02:729] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:49:02:730] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:49:02:730] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:49:02:730] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[11:49:02:731] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[11:49:02:731] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[11:49:02:731] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:49:02:731] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:49:02:768] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[11:49:02:782] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:49:02:783] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 806 ms
+[11:49:02:823] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[11:49:03:169] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-4} inited
+[11:49:03:196] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:49:03:229] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[11:49:03:245] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[11:49:03:246] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[11:49:03:289] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:49:03:354] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:49:03:413] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[11:49:03:417] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[11:49:03:430] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[11:49:03:437] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[11:49:03:437] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[11:49:03:438] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[11:49:03:443] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 1.569 seconds (JVM running for 4110.59)
+[11:49:03:445] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[11:49:11:908] [INFO ][Thread-18](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:49:11:909] [INFO ][Thread-18](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:49:11:911] [INFO ][Thread-18](DruidDataSource.java:1908) - {dataSource-4} closed
+[11:49:11:995] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[11:49:11:996] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[11:49:12:201] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[11:49:12:204] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[11:49:12:283] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:49:12:284] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:49:12:284] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:49:12:284] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[11:49:12:285] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[11:49:12:285] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[11:49:12:285] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:49:12:285] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:49:12:286] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[11:49:12:301] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:49:12:301] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 303 ms
+[11:49:12:334] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[11:49:12:832] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-5} inited
+[11:49:12:848] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:49:12:882] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[11:49:12:906] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[11:49:12:908] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[11:49:12:910] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:49:12:977] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:49:13:043] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[11:49:13:046] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[11:49:13:060] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[11:49:13:068] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[11:49:13:068] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[11:49:13:069] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[11:49:13:074] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 1.126 seconds (JVM running for 4120.22)
+[11:49:13:076] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[11:49:34:582] [INFO ][Thread-23](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:49:34:583] [INFO ][Thread-23](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:49:34:585] [INFO ][Thread-23](DruidDataSource.java:1908) - {dataSource-5} closed
+[11:49:34:659] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[11:49:34:659] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[11:49:34:855] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[11:49:34:857] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[11:49:34:958] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:49:34:959] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:49:34:959] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:49:34:959] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[11:49:34:960] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[11:49:34:960] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[11:49:34:960] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:49:34:960] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:49:34:961] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[11:49:34:974] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:49:34:975] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 314 ms
+[11:49:35:003] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[11:49:35:067] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-6} inited
+[11:49:35:084] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:49:35:105] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[11:49:35:118] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[11:49:35:119] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[11:49:35:133] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:49:35:185] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:49:35:225] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[11:49:35:227] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[11:49:35:236] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[11:49:35:242] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[11:49:35:243] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[11:49:35:243] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[11:49:35:247] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.626 seconds (JVM running for 4142.393)
+[11:49:35:249] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[11:50:29:252] [INFO ][http-nio-8083-exec-2](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:50:29:252] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:50:29:255] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:547) - Completed initialization in 3 ms
+[11:56:29:694] [INFO ][Thread-28](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:56:29:695] [INFO ][Thread-28](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:56:29:697] [INFO ][Thread-28](DruidDataSource.java:1908) - {dataSource-6} closed
+[11:56:29:866] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[11:56:29:866] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[11:56:30:140] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[11:56:30:142] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[11:56:30:213] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:56:30:214] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:56:30:214] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:56:30:214] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[11:56:30:214] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[11:56:30:215] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[11:56:30:215] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:56:30:215] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:56:30:215] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[11:56:30:346] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:56:30:346] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 478 ms
+[11:56:30:381] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[11:56:30:513] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-7} inited
+[11:56:30:529] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:56:30:546] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[11:56:30:558] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[11:56:30:558] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[11:56:30:607] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:56:30:661] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:56:30:702] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[11:56:30:704] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[11:56:30:713] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[11:56:30:720] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[11:56:30:721] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[11:56:30:721] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[11:56:30:728] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.956 seconds (JVM running for 4557.874)
+[11:56:30:730] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[11:57:54:513] [INFO ][Thread-33](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:57:54:515] [INFO ][Thread-33](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:57:54:515] [INFO ][Thread-33](DruidDataSource.java:1908) - {dataSource-7} closed
+[11:57:54:592] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[11:57:54:592] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[11:57:54:766] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[11:57:54:770] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[11:57:54:838] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:57:54:839] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:57:54:839] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:57:54:839] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[11:57:54:840] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[11:57:54:840] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[11:57:54:840] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:57:54:840] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:57:54:841] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[11:57:55:748] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:57:55:774] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1180 ms
+[11:57:55:802] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[11:57:55:958] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-8} inited
+[11:57:55:972] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:57:55:994] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[11:57:56:012] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[11:57:56:013] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[11:57:56:028] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[11:57:56:097] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[11:57:56:138] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[11:57:56:141] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[11:57:56:154] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[11:57:56:161] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[11:57:56:162] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[11:57:56:162] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[11:57:56:167] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 1.608 seconds (JVM running for 4643.314)
+[11:57:56:169] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[11:59:30:977] [INFO ][Thread-38](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:59:30:977] [INFO ][Thread-38](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:59:30:979] [INFO ][Thread-38](DruidDataSource.java:1908) - {dataSource-8} closed
+[11:59:31:049] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24724 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[11:59:31:049] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[11:59:31:221] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[11:59:31:224] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[11:59:31:289] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:59:31:290] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:59:31:290] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:59:31:290] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[11:59:31:290] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[11:59:31:291] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[11:59:31:291] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:59:31:291] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:59:31:291] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[11:59:31:305] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:59:31:305] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 253 ms
+[11:59:31:332] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[11:59:31:915] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-9} inited
+[11:59:31:955] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:59:31:971] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[11:59:31:982] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[11:59:31:983] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[11:59:31:989] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[11:59:31:989] [INFO ][restartedMain](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[11:59:31:989] [INFO ][restartedMain](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:59:31:991] [INFO ][restartedMain](DruidDataSource.java:1908) - {dataSource-9} closed
+[11:59:31:992] [INFO ][restartedMain](DirectJDKLog.java:173) - Stopping service [Tomcat]
+[11:59:32:015] [INFO ][restartedMain](ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[11:59:32:019] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:00:18:577] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 24520 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[12:00:18:586] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[12:00:18:649] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[12:00:18:649] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[12:00:20:172] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[12:00:20:246] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 67ms. Found 0 JPA repository interfaces.
+[12:00:21:707] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[12:00:21:719] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:00:21:720] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:00:21:721] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[12:00:21:723] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[12:00:21:724] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[12:00:21:724] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:00:21:725] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:00:22:851] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[12:00:24:051] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:00:24:052] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 5402 ms
+[12:00:24:284] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[12:00:25:208] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[12:00:25:343] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:00:25:684] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[12:00:25:906] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[12:00:25:907] [INFO ][restartedMain](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[12:00:26:031] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[12:00:26:480] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[12:00:27:210] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[12:00:27:219] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[12:00:27:223] [INFO ][restartedMain](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:00:27:230] [INFO ][restartedMain](DruidDataSource.java:1908) - {dataSource-1} closed
+[12:00:27:233] [INFO ][restartedMain](DirectJDKLog.java:173) - Stopping service [Tomcat]
+[12:00:27:256] [INFO ][restartedMain](ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[12:00:27:259] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:15:59:749] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 22228 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[12:15:59:757] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[12:15:59:805] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[12:15:59:806] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[12:16:00:685] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[12:16:00:705] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+[12:16:01:356] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[12:16:01:370] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:16:01:371] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:16:01:372] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[12:16:01:376] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[12:16:01:377] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[12:16:01:377] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:16:01:378] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:16:02:430] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[12:16:02:515] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:16:02:515] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2708 ms
+[12:16:02:686] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[12:16:03:236] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[12:16:03:297] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:16:03:423] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[12:16:03:569] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[12:16:03:570] [INFO ][restartedMain](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[12:16:03:593] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[12:16:03:804] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[12:16:04:142] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[12:16:04:150] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[12:16:04:155] [INFO ][restartedMain](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:16:04:166] [INFO ][restartedMain](DruidDataSource.java:1908) - {dataSource-1} closed
+[12:16:04:171] [INFO ][restartedMain](DirectJDKLog.java:173) - Stopping service [Tomcat]
+[12:16:04:202] [INFO ][restartedMain](ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[12:16:04:205] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:16:54:146] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 19684 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[12:16:54:157] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[12:16:54:211] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[12:16:54:212] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[12:16:55:070] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[12:16:55:094] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 16ms. Found 0 JPA repository interfaces.
+[12:16:55:743] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[12:16:55:752] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:16:55:753] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:16:55:754] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[12:16:55:757] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[12:16:55:757] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[12:16:55:758] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:16:55:758] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:16:56:823] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[12:16:57:015] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:16:57:016] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2803 ms
+[12:16:57:177] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[12:16:57:537] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[12:16:57:603] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:16:57:725] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[12:16:57:847] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'foodsService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.service.FoodsService' available: expected single matching bean but found 2: foodsRandomServiceImpl,foodsServiceImpl
+[12:16:57:848] [INFO ][restartedMain](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[12:16:57:873] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[12:16:58:081] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[12:16:58:297] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[12:16:58:310] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[12:16:58:316] [INFO ][restartedMain](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:16:58:330] [INFO ][restartedMain](DruidDataSource.java:1908) - {dataSource-1} closed
+[12:16:58:338] [INFO ][restartedMain](DirectJDKLog.java:173) - Stopping service [Tomcat]
+[12:16:58:371] [INFO ][restartedMain](ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[12:16:58:374] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field foodsService in com.ysgj.food.platform.controller.FoodsController required a single bean, but 2 were found:
+	- foodsRandomServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsRandomServiceImpl.class]
+	- foodsServiceImpl: defined in file [E:\newWorkspace\ysgj-paltform\target\classes\com\ysgj\food\platform\service\impl\FoodsServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+[12:21:19:440] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[12:21:19:450] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[12:21:19:497] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[12:21:19:498] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[12:21:20:366] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[12:21:20:387] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+[12:21:21:077] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[12:21:21:087] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:21:21:087] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:21:21:088] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[12:21:21:090] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[12:21:21:091] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[12:21:21:092] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:21:21:092] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:21:22:194] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[12:21:22:343] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:21:22:344] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2845 ms
+[12:21:22:516] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[12:21:22:908] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[12:21:22:974] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:21:23:102] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[12:21:23:313] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[12:21:23:328] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[12:21:23:691] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[12:21:23:827] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[12:21:24:021] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[12:21:24:047] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[12:21:24:063] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[12:21:24:069] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[12:21:24:129] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[12:21:24:174] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[12:21:24:176] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[12:21:24:176] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[12:21:24:189] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 5.263 seconds (JVM running for 6.081)
+[12:22:21:254] [INFO ][http-nio-8083-exec-2](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[12:22:21:254] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[12:22:21:261] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:547) - Completed initialization in 7 ms
+[12:25:22:486] [INFO ][Thread-5](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[12:25:22:489] [INFO ][Thread-5](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:25:22:496] [INFO ][Thread-5](DruidDataSource.java:1908) - {dataSource-1} closed
+[12:25:22:602] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[12:25:22:603] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[12:25:22:911] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[12:25:22:914] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[12:25:23:024] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[12:25:23:025] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:25:23:025] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:25:23:026] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[12:25:23:026] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[12:25:23:027] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[12:25:23:027] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:25:23:027] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:25:23:028] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[12:25:23:044] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:25:23:044] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 438 ms
+[12:25:23:092] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[12:25:23:207] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-2} inited
+[12:25:23:239] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:25:23:283] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[12:25:23:301] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[12:25:23:302] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[12:25:23:311] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[12:25:23:393] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[12:25:23:454] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[12:25:23:462] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[12:25:23:477] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[12:25:23:485] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[12:25:23:485] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[12:25:23:486] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[12:25:23:492] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.954 seconds (JVM running for 245.384)
+[12:25:23:495] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[12:26:49:029] [INFO ][http-nio-8083-exec-2](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[12:26:49:030] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[12:26:49:032] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:547) - Completed initialization in 2 ms
+[15:15:58:236] [INFO ][Thread-8](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[15:15:58:247] [INFO ][Thread-8](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:15:58:252] [INFO ][Thread-8](DruidDataSource.java:1908) - {dataSource-2} closed
+[15:15:58:438] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[15:15:58:439] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[15:15:58:979] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[15:15:58:983] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[15:15:59:098] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[15:15:59:099] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:15:59:099] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:15:59:099] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[15:15:59:100] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[15:15:59:100] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[15:15:59:100] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[15:15:59:101] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[15:15:59:102] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[15:15:59:119] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:15:59:119] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 676 ms
+[15:15:59:160] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[15:16:00:267] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-3} inited
+[15:16:00:421] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:16:00:480] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[15:16:00:495] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[15:16:00:496] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[15:16:00:533] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[15:16:00:613] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[15:16:00:668] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[15:16:00:671] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[15:16:00:682] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:16:00:688] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:16:00:688] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[15:16:00:689] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[15:16:00:693] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 2.333 seconds (JVM running for 10482.589)
+[15:16:00:695] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[15:19:59:097] [INFO ][Thread-13](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[15:19:59:098] [INFO ][Thread-13](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[15:19:59:100] [INFO ][Thread-13](DruidDataSource.java:1908) - {dataSource-3} closed
+[15:19:59:189] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[15:19:59:189] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[15:19:59:425] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[15:19:59:428] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[15:19:59:518] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[15:19:59:518] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[15:19:59:519] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:19:59:519] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[15:19:59:519] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[15:19:59:519] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[15:19:59:520] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[15:19:59:520] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[15:19:59:520] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[15:19:59:538] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:19:59:538] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 347 ms
+[15:19:59:573] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[15:19:59:646] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-4} inited
+[15:19:59:662] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:19:59:688] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[15:19:59:703] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[15:19:59:704] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[15:19:59:714] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[15:19:59:770] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[15:19:59:817] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[15:19:59:819] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[15:19:59:829] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[15:19:59:835] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[15:19:59:836] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[15:19:59:836] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[15:19:59:840] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.704 seconds (JVM running for 10721.736)
+[15:19:59:842] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:15:42:413] [INFO ][Thread-18](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:15:42:427] [INFO ][Thread-18](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:15:42:432] [INFO ][Thread-18](DruidDataSource.java:1908) - {dataSource-4} closed
+[16:15:42:582] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:15:42:583] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:15:42:846] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:15:42:849] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:15:42:949] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:15:42:949] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:15:42:950] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:15:42:950] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:15:42:950] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:15:42:950] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:15:42:950] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:15:42:950] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:15:42:951] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:15:42:970] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:15:42:970] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 384 ms
+[16:15:43:010] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:15:43:073] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-5} inited
+[16:15:43:094] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:15:43:120] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:15:43:138] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:15:43:139] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:15:43:151] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:15:43:229] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:15:43:282] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:15:43:287] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:15:43:299] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:15:43:307] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:15:43:308] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:15:43:308] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:15:43:314] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.79 seconds (JVM running for 14065.211)
+[16:15:43:316] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:16:18:908] [INFO ][Thread-23](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:16:18:911] [INFO ][Thread-23](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:16:18:915] [INFO ][Thread-23](DruidDataSource.java:1908) - {dataSource-5} closed
+[16:16:18:997] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:16:18:998] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:16:19:192] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:16:19:195] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:16:19:270] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:16:19:271] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:16:19:271] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:16:19:271] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:16:19:272] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:16:19:272] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:16:19:272] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:16:19:273] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:16:19:273] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:16:19:290] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:16:19:290] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 290 ms
+[16:16:19:327] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:16:19:382] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-6} inited
+[16:16:19:398] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:16:19:416] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:16:19:427] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:16:19:428] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:16:19:443] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:16:19:495] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:16:19:540] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:16:19:545] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:16:19:558] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:16:19:564] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:16:19:565] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:16:19:566] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:16:19:569] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.612 seconds (JVM running for 14101.466)
+[16:16:19:571] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:17:31:293] [INFO ][Thread-28](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:17:31:294] [INFO ][Thread-28](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:17:31:296] [INFO ][Thread-28](DruidDataSource.java:1908) - {dataSource-6} closed
+[16:17:31:383] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:17:31:384] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:17:31:621] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:17:31:624] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[16:17:31:708] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:17:31:708] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:17:31:709] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:17:31:709] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:17:31:709] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:17:31:709] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:17:31:709] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:17:31:709] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:17:31:710] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:17:31:723] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:17:31:723] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 337 ms
+[16:17:31:755] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:17:31:805] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-7} inited
+[16:17:31:818] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:17:31:838] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:17:31:851] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:17:31:852] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:17:31:872] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:17:31:929] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:17:31:980] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:17:31:984] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:17:31:997] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:17:32:003] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:17:32:004] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:17:32:004] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:17:32:008] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.674 seconds (JVM running for 14173.904)
+[16:17:32:009] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:18:46:755] [INFO ][Thread-33](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:18:46:756] [INFO ][Thread-33](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:18:46:758] [INFO ][Thread-33](DruidDataSource.java:1908) - {dataSource-7} closed
+[16:18:46:836] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:18:46:837] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:18:47:055] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:18:47:057] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:18:47:131] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:18:47:132] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:18:47:132] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:18:47:133] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:18:47:133] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:18:47:133] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:18:47:133] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:18:47:134] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:18:47:134] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:18:47:167] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:18:47:167] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 329 ms
+[16:18:47:199] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:18:47:243] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-8} inited
+[16:18:47:256] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:18:47:275] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:18:47:288] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:18:47:289] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:18:47:304] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:18:47:352] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:18:47:391] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:18:47:394] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:18:47:402] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:18:47:413] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:18:47:414] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:18:47:414] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:18:47:419] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.622 seconds (JVM running for 14249.315)
+[16:18:47:420] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:19:05:925] [INFO ][Thread-38](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:19:05:926] [INFO ][Thread-38](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:19:05:927] [INFO ][Thread-38](DruidDataSource.java:1908) - {dataSource-8} closed
+[16:19:06:001] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:19:06:002] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:19:06:179] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:19:06:183] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[16:19:06:260] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:19:06:261] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:19:06:261] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:19:06:262] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:19:06:262] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:19:06:262] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:19:06:263] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:19:06:263] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:19:06:263] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:19:06:280] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:19:06:280] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 277 ms
+[16:19:06:319] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:19:06:384] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-9} inited
+[16:19:06:414] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:19:06:467] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:19:06:480] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:19:06:482] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:19:06:491] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:19:06:552] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:19:06:595] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:19:06:598] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:19:06:606] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:19:06:613] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:19:06:614] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:19:06:615] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:19:06:620] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.653 seconds (JVM running for 14268.516)
+[16:19:06:622] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:40:27:470] [INFO ][Thread-43](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:40:27:471] [INFO ][Thread-43](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:40:27:472] [INFO ][Thread-43](DruidDataSource.java:1908) - {dataSource-9} closed
+[16:40:27:545] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:40:27:546] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:40:27:702] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:40:27:705] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:40:27:782] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:40:27:782] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:40:27:783] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:40:27:783] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:40:27:783] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:40:27:783] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:40:27:783] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:40:27:784] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:40:27:784] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:40:27:796] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:40:27:796] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 248 ms
+[16:40:27:828] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:40:27:873] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-10} inited
+[16:40:27:885] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:40:27:905] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:40:27:916] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:40:27:917] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:40:27:928] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:40:27:982] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:40:28:018] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:40:28:020] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:40:28:027] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:40:28:032] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:40:28:032] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:40:28:033] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:40:28:036] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.523 seconds (JVM running for 15549.933)
+[16:40:28:037] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:43:55:400] [INFO ][Thread-48](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:43:55:401] [INFO ][Thread-48](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:43:55:402] [INFO ][Thread-48](DruidDataSource.java:1908) - {dataSource-10} closed
+[16:43:55:473] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:43:55:473] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:43:55:624] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:43:55:626] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:43:55:696] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:43:55:697] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:43:55:698] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:43:55:698] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:43:55:698] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:43:55:699] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:43:55:699] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:43:55:699] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:43:55:700] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:43:55:761] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:43:55:761] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 286 ms
+[16:43:55:788] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:43:55:835] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-11} inited
+[16:43:55:849] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:43:55:867] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:43:55:883] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:43:55:884] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:43:55:900] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:43:55:960] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:43:55:998] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:43:56:000] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:43:56:008] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:43:56:013] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:43:56:014] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:43:56:014] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:43:56:018] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.574 seconds (JVM running for 15757.914)
+[16:43:56:021] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:46:27:081] [INFO ][Thread-53](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:46:27:082] [INFO ][Thread-53](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:46:27:083] [INFO ][Thread-53](DruidDataSource.java:1908) - {dataSource-11} closed
+[16:46:27:156] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:46:27:157] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:46:27:311] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:46:27:314] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:46:27:375] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:46:27:375] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:46:27:375] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:46:27:376] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:46:27:376] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:46:27:376] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:46:27:376] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:46:27:376] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:46:27:376] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:46:27:428] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:46:27:428] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 270 ms
+[16:46:27:455] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:46:27:501] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-12} inited
+[16:46:27:519] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:46:27:539] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:46:27:550] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:46:27:551] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:46:27:561] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:46:27:610] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:46:27:657] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:46:27:660] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:46:27:669] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:46:27:676] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:46:27:677] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:46:27:678] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:46:27:683] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.555 seconds (JVM running for 15909.579)
+[16:46:27:685] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:46:31:135] [INFO ][Thread-58](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:46:31:136] [INFO ][Thread-58](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:46:31:137] [INFO ][Thread-58](DruidDataSource.java:1908) - {dataSource-12} closed
+[16:46:31:209] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:46:31:210] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:46:31:364] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:46:31:366] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:46:31:580] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:46:31:581] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:46:31:582] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:46:31:628] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:46:31:628] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 417 ms
+[16:46:31:652] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:46:31:709] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-13} inited
+[16:46:31:727] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:46:31:745] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:46:31:755] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:46:31:756] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:46:31:765] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:46:31:810] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:46:31:849] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:46:31:854] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:46:31:866] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:46:31:873] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:46:31:874] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:46:31:874] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:46:31:879] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.697 seconds (JVM running for 15913.775)
+[16:46:31:880] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:46:39:346] [INFO ][Thread-63](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:46:39:347] [INFO ][Thread-63](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:46:39:349] [INFO ][Thread-63](DruidDataSource.java:1908) - {dataSource-13} closed
+[16:46:39:424] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:46:39:425] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:46:39:567] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:46:39:570] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[16:46:39:638] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:46:39:639] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:46:39:639] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:46:39:639] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:46:39:639] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:46:39:639] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:46:39:639] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:46:39:640] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:46:39:640] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:46:39:651] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:46:39:652] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 225 ms
+[16:46:39:680] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:46:39:730] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-14} inited
+[16:46:39:755] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:46:39:772] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:46:39:783] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:46:39:784] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:46:39:799] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:46:39:848] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:46:39:888] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:46:39:890] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:46:39:898] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:46:39:907] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:46:39:907] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:46:39:908] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:46:39:911] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.518 seconds (JVM running for 15921.807)
+[16:46:39:912] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:48:42:871] [INFO ][Thread-68](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:48:42:872] [INFO ][Thread-68](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:48:42:873] [INFO ][Thread-68](DruidDataSource.java:1908) - {dataSource-14} closed
+[16:48:42:948] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:48:42:949] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:48:43:086] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:48:43:088] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:48:43:147] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:48:43:147] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:48:43:147] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:48:43:148] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:48:43:148] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:48:43:148] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:48:43:148] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:48:43:148] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:48:43:149] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:48:43:162] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:48:43:162] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 212 ms
+[16:48:43:190] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:48:43:245] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-15} inited
+[16:48:43:263] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:48:43:281] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:48:43:292] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:48:43:292] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:48:43:299] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:48:43:342] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:48:43:373] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:48:43:375] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:48:43:381] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:48:43:386] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:48:43:387] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:48:43:387] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:48:43:390] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.47 seconds (JVM running for 16045.286)
+[16:48:43:391] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:50:20:231] [INFO ][Thread-73](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:50:20:231] [INFO ][Thread-73](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:50:20:233] [INFO ][Thread-73](DruidDataSource.java:1908) - {dataSource-15} closed
+[16:50:20:310] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:50:20:311] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:50:20:424] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:50:20:427] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+[16:50:20:489] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:50:20:490] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:50:20:490] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:50:20:490] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:50:20:490] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:50:20:490] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:50:20:491] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:50:20:491] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:50:20:491] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:50:20:511] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:50:20:511] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 198 ms
+[16:50:20:539] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:50:20:577] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-16} inited
+[16:50:20:591] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:50:20:606] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:50:20:616] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:50:20:617] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:50:20:627] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:50:20:662] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:50:20:689] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:50:20:691] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:50:20:698] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:50:20:705] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:50:20:706] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:50:20:706] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:50:20:709] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.425 seconds (JVM running for 16142.605)
+[16:50:20:710] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:51:18:406] [INFO ][Thread-78](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[16:51:18:407] [INFO ][Thread-78](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:51:18:410] [INFO ][Thread-78](DruidDataSource.java:1908) - {dataSource-16} closed
+[16:51:18:493] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 3864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:51:18:494] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:51:18:613] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:51:18:615] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[16:51:18:683] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:51:18:684] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:51:18:685] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:51:18:685] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:51:18:686] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:51:18:686] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:51:18:686] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:51:18:686] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:51:18:687] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:51:18:702] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:51:18:703] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 207 ms
+[16:51:18:730] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:51:18:774] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-17} inited
+[16:51:18:787] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:51:18:801] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:51:18:820] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:51:18:821] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:51:18:829] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:51:18:867] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:51:18:897] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:51:18:899] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:51:18:906] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:51:18:913] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:51:18:913] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:51:18:914] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:51:18:918] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.453 seconds (JVM running for 16200.814)
+[16:51:18:920] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[18:55:23:469] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 19104 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[18:55:23:477] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[18:55:23:538] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[18:55:23:539] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[18:55:24:484] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[18:55:24:525] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 34ms. Found 0 JPA repository interfaces.
+[18:55:25:234] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[18:55:25:245] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[18:55:25:247] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[18:55:25:248] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[18:55:25:253] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[18:55:25:254] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[18:55:25:255] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[18:55:25:256] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[18:55:26:339] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[18:55:26:428] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[18:55:26:428] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2889 ms
+[18:55:26:631] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[18:55:27:069] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[18:55:27:162] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[18:55:27:302] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[18:55:27:487] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[18:55:27:497] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:55:27:738] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[18:55:27:823] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:55:28:042] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[18:55:28:054] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[18:55:28:120] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[18:55:28:132] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[18:55:28:141] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[18:55:28:180] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[18:55:28:182] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[18:55:28:183] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[18:55:28:197] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 5.463 seconds (JVM running for 6.408)
+[18:56:20:760] [INFO ][http-nio-8083-exec-2](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[18:56:20:760] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[18:56:20:767] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:547) - Completed initialization in 7 ms
+[18:56:55:607] [INFO ][Thread-5](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[18:56:55:609] [INFO ][Thread-5](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:56:55:661] [INFO ][Thread-5](DruidDataSource.java:1908) - {dataSource-1} closed
+[18:56:55:804] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 19104 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[18:56:55:805] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[18:56:56:206] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[18:56:56:211] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+[18:56:56:485] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[18:56:56:486] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[18:56:56:487] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[18:56:56:487] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[18:56:56:487] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[18:56:56:487] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[18:56:56:488] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[18:56:56:488] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[18:56:56:488] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[18:56:56:512] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[18:56:56:513] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 706 ms
+[18:56:56:571] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[18:56:59:141] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-2} inited
+[18:56:59:164] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[18:56:59:222] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[18:56:59:262] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[18:56:59:263] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[18:56:59:282] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:56:59:375] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:56:59:474] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[18:56:59:479] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[18:56:59:500] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[18:56:59:507] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[18:56:59:508] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[18:56:59:509] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[18:56:59:514] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 3.767 seconds (JVM running for 97.724)
+[18:56:59:518] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[18:57:08:990] [INFO ][Thread-8](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[18:57:08:991] [INFO ][Thread-8](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:57:08:993] [INFO ][Thread-8](DruidDataSource.java:1908) - {dataSource-2} closed
+[18:57:09:081] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 19104 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[18:57:09:082] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[18:57:09:332] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[18:57:09:336] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[18:57:09:453] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[18:57:09:454] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[18:57:09:454] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[18:57:09:454] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[18:57:09:455] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[18:57:09:456] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[18:57:09:457] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[18:57:09:457] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[18:57:09:459] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[18:57:09:475] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[18:57:09:475] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 390 ms
+[18:57:09:515] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[18:57:09:595] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-3} inited
+[18:57:09:615] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[18:57:09:648] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[18:57:09:663] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[18:57:09:664] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[18:57:09:674] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:57:09:745] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:57:09:801] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[18:57:09:805] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[18:57:09:817] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[18:57:09:823] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[18:57:09:824] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[18:57:09:824] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[18:57:09:831] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 0.804 seconds (JVM running for 108.041)
+[18:57:09:833] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[16:01:53:208] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 27084 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[16:01:53:237] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[16:01:53:485] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[16:01:53:487] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[16:01:56:082] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[16:01:56:119] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 23ms. Found 0 JPA repository interfaces.
+[16:01:57:878] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[16:01:57:893] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[16:01:57:894] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:01:57:895] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[16:01:57:898] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[16:01:57:899] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[16:01:57:900] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[16:01:57:900] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[16:01:59:094] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[16:01:59:324] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:01:59:324] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 5836 ms
+[16:01:59:680] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:02:01:278] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[16:02:01:459] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:02:01:951] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[16:02:02:703] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[16:02:02:720] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[16:02:04:047] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:02:04:390] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[16:02:04:870] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[16:02:04:882] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[16:02:05:798] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:02:05:811] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[16:02:05:826] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[16:02:05:939] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[16:02:05:942] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[16:02:05:943] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[16:02:05:962] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 14.444 seconds (JVM running for 22.135)
+[16:06:30:599] [INFO ][http-nio-8083-exec-4](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:06:30:600] [INFO ][http-nio-8083-exec-4](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:06:30:606] [INFO ][http-nio-8083-exec-4](FrameworkServlet.java:547) - Completed initialization in 6 ms
+[17:06:25:465] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 29864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[17:06:25:480] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[17:06:25:543] [INFO ][restartedMain](DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:06:25:544] [INFO ][restartedMain](DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:06:26:846] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[17:06:26:886] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 27ms. Found 0 JPA repository interfaces.
+[17:06:27:918] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[17:06:27:944] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:06:27:945] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:06:27:946] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[17:06:27:951] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[17:06:27:952] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[17:06:27:953] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[17:06:27:953] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[17:06:29:126] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[17:06:29:345] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:06:29:346] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 3801 ms
+[17:06:29:594] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[17:06:30:381] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-1} inited
+[17:06:30:483] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:06:30:787] [INFO ][task-1](Version.java:44) - HHH000412: Hibernate ORM core version 5.4.22.Final
+[17:06:31:273] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[17:06:31:389] [INFO ][task-1](JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[17:06:31:876] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[17:06:31:882] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[17:06:32:332] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[17:06:32:355] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[17:06:32:485] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[17:06:32:499] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[17:06:32:519] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:06:32:575] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:06:32:578] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[17:06:32:579] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[17:06:32:601] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 8.05 seconds (JVM running for 9.679)
+[17:15:52:605] [INFO ][http-nio-8083-exec-2](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:15:52:606] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:15:52:636] [INFO ][http-nio-8083-exec-2](FrameworkServlet.java:547) - Completed initialization in 30 ms
+[17:16:54:521] [INFO ][Thread-5](AbstractEntityManagerFactoryBean.java:598) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[17:16:54:525] [INFO ][Thread-5](ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:16:54:571] [INFO ][Thread-5](DruidDataSource.java:1908) - {dataSource-1} closed
+[17:16:54:818] [INFO ][restartedMain](StartupInfoLogger.java:55) - Starting YsgjPaltformApplication on DESKTOP-4GFJ6FP with PID 29864 (E:\newWorkspace\ysgj-paltform\target\classes started by DELL in E:\newWorkspace\ysgj-paltform)
+[17:16:54:820] [INFO ][restartedMain](SpringApplication.java:655) - The following profiles are active: ${profile}
+[17:16:55:350] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[17:16:55:357] [INFO ][restartedMain](RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 6ms. Found 0 JPA repository interfaces.
+[17:16:55:566] [INFO ][restartedMain](TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[17:16:55:568] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[17:16:55:569] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:16:55:569] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[17:16:55:570] [INFO ][restartedMain](DirectJDKLog.java:173) - An older version [1.2.17] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[17:16:55:571] [INFO ][restartedMain](DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[17:16:55:571] [INFO ][restartedMain](DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[17:16:55:571] [INFO ][restartedMain](DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[17:16:55:572] [INFO ][restartedMain](DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[17:16:55:616] [INFO ][restartedMain](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:16:55:616] [INFO ][restartedMain](ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 793 ms
+[17:16:55:679] [INFO ][restartedMain](DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[17:16:55:952] [INFO ][restartedMain](DruidDataSource.java:971) - {dataSource-2} inited
+[17:16:55:980] [INFO ][restartedMain](ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:16:56:078] [INFO ][task-1](Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[17:16:56:104] [INFO ][task-1](JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[17:16:56:105] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[17:16:56:106] [INFO ][task-1](AbstractEntityManagerFactoryBean.java:416) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[17:16:56:210] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[17:16:56:303] [INFO ][restartedMain](OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+[17:16:56:309] [INFO ][restartedMain](EndpointLinksResolver.java:58) - Exposing 2 endpoint(s) beneath base path '/actuator'
+[17:16:56:361] [INFO ][restartedMain](DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[17:16:56:370] [INFO ][restartedMain](TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[17:16:56:371] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:49) - Triggering deferred initialization of Spring Data repositories…
+[17:16:56:372] [INFO ][restartedMain](DeferredRepositoryInitializationListener.java:53) - Spring Data repositories initialized!
+[17:16:56:382] [INFO ][restartedMain](StartupInfoLogger.java:61) - Started YsgjPaltformApplication in 1.65 seconds (JVM running for 633.46)
+[17:16:56:385] [INFO ][restartedMain](ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[17:17:30:404] [INFO ][http-nio-8083-exec-4](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:17:30:404] [INFO ][http-nio-8083-exec-4](FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:17:30:406] [INFO ][http-nio-8083-exec-4](FrameworkServlet.java:547) - Completed initialization in 2 ms

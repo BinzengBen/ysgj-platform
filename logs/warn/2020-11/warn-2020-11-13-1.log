@@ -1,0 +1,104 @@
+[17:45:11:263] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.*]' package. Please check your configuration.
+[17:45:15:105] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[17:45:15:729] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[17:47:27:636] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.*]' package. Please check your configuration.
+[17:47:28:140] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[17:47:40:780] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.*]' package. Please check your configuration.
+[17:47:43:841] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[17:47:44:158] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[17:49:10:681] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.*]' package. Please check your configuration.
+[17:49:11:105] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[17:49:11:184] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[18:08:42:051] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.*]' package. Please check your configuration.
+[18:08:42:567] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:08:42:646] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[21:52:19:729] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[21:52:20:027] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[21:55:50:577] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform]' package. Please check your configuration.
+[21:55:51:035] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'dccpPageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[21:55:51:399] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:56:05:792] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform]' package. Please check your configuration.
+[21:56:08:871] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'dccpPageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[21:56:09:779] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:57:39:306] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.*]' package. Please check your configuration.
+[21:57:39:436] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform]' package. Please check your configuration.
+[21:57:43:241] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'dccpPageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[21:57:44:226] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:58:26:676] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform.dao.DccpPageMapper]' package. Please check your configuration.
+[21:58:26:801] [WARN ][restartedMain](ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.ysgj.food.platform]' package. Please check your configuration.
+[21:58:29:520] [WARN ][restartedMain](AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'foodsController': Unsatisfied dependency expressed through field 'dccpPageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[21:58:30:413] [ERROR][restartedMain](LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dccpPageMapper in com.ysgj.food.platform.controller.FoodsController required a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ysgj.food.platform.dao.DccpPageMapper' in your configuration.
+
+[21:59:55:503] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[21:59:55:799] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[22:00:19:857] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[22:00:19:938] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[22:08:20:742] [WARN ][restartedMain](JpaBaseConfiguration.java:220) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[22:08:20:800] [WARN ][restartedMain](ThymeleafAutoConfiguration.java:106) - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
